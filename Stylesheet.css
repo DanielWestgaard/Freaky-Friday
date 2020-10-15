@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    width: 90%; /**/
+    width: 85%; /**/
     margin: auto; /*Setter alt i konteineren i midten*/
 }
 
@@ -38,9 +38,23 @@ body{
 /*Vil få med videoer og bilder. Videoene skal gjerne kunne spilles av, eller så kan GIFs funke*/
 .block{
     float: left;
-    width: 80%;
+    width: 85%;
 }
-.block img{
+.block img{ /*Alle bildene som er med*/
     float: left;
-    width: 50%;
+    width: 40%;
+}
+#hoveddel{
+    margin-bottom: 2px;
+}
+.block h3{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.block p{
+    margin-top: 1px;
+}
+.block iframe{ /*YouTube videoene*/
+    width: 40%;
+    height: 60%;
 }
