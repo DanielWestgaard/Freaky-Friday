@@ -3,7 +3,7 @@ body{
 
     /*Jeg vil nok gjerne bytte skrift senere*/
     font: normal 16px Arial, Helvetica, sans-serif;
-    line-height: 1.6em;
+    line-height: 1.7em;
 
     margin: 0; /*Fjerner det bitte lille tomrommet på sidene av nettsiden*/
 }
@@ -17,6 +17,25 @@ body{
     float: right;
     box-sizing: border-box;
 }
+
+#myBtn{ /*Knappen som egentlig skal ta deg til toppen*/
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: lightskyblue; /* Set a background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+#myBtn:hover{
+    background-color: lightcoral; /* Add a dark-grey background on hover */
+}
+/*For at knappen faktisk skal fungere trenger man JavaScript*/
 
 
 /*Overskrift*/
@@ -38,13 +57,16 @@ body{
     width: 90%;
 }
 .box-2 h2{
+    text-decoration: underline lightskyblue;
 }
 
 /*Hoveddel*/
-/*Vil få med videoer og bilder. Videoene skal gjerne kunne spilles av, eller så kan GIFs funke*/
 .block{
     float: left;
     width: 85%;
+
+    border-bottom: lightskyblue 5px dotted; /*Det blå som rammer inn boksene*/
+    padding: 10px;
 }
 .block img{ /*Alle bildene som er med*/
     float: left;
@@ -56,15 +78,19 @@ body{
 }
 #hoveddel{
     margin-bottom: 2px;
+    border: lightskyblue 5px dotted; /*Det blå som rammer inn boksene*/
+    padding: 5px;
 }
 .block h3{
     margin-top: 0px;
     margin-bottom: 10px;
+    text-decoration: underline lightskyblue;
 }
 .block p{
     margin-top: 1px;
 }
-.block iframe{ /*YouTube videoene*/
-    width: 40%;
-    height: 60%;
-}
+
+/*.block iframe{ /*YouTube videoene*/
+   /* width: 40%;
+    height: 50%;
+}*/
