@@ -71,7 +71,7 @@ body{
 }
 .block img{ /*Alle bildene som er med*/
     float: left;
-    width: 30%;
+    width: 26%;
 }
 .block p{
     padding-top: 0px;
