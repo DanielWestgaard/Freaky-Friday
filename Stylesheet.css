@@ -71,7 +71,7 @@ body{
 }
 .block img{ /*Alle bildene som er med*/
     float: left;
-    width: 26%;
+    width: 250px;
 }
 .block p{
     padding-top: 0px;
@@ -91,7 +91,7 @@ body{
     margin-top: 1px;
 }
 
-/*.block iframe{ /*YouTube videoene*/
-   /* width: 40%;
-    height: 50%;
-}*/
+.block iframe{ /*YouTube videoene*/
+    padding-top: 2.5px;
+    width: 250px;
+}
